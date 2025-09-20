@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# @name Gazebo victor depth
+#
+# @type Quadrotor
+#
+
+PX4_SIM_MODEL=${PX4_SIM_MODEL:=victor_depth}
+
+. ${R}etc/init.d-posix/airframes/22000_gz_victor

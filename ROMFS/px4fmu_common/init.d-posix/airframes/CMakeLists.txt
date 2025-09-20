@@ -121,4 +121,5 @@ px4_add_romfs_files(
 
 	# [22000, 22999] Reserve for custom models
 	22000_gz_victor
+	22001_gz_victor_depth
 )
